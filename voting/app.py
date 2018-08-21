@@ -9,8 +9,8 @@ import logging
 import signal
 import sys
 
-optionA = "football"
-optionB = "hockey"
+optionA = "Cricket"
+optionB ="hockey"
 name = optionA + " VS " + optionB
 
 redis = Redis(host="redis", db=0)
